@@ -1,0 +1,130 @@
+{
+    "name": "GameInputs",
+    "maps": [
+        {
+            "name": "Chat",
+            "id": "f49204b6-2201-4e1b-89f5-77c0bd738b3b",
+            "actions": [
+                {
+                    "name": "SendChat",
+                    "type": "Button",
+                    "id": "8dd44d84-e26e-4931-9285-f5974ce5cc41",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OpenChat",
+                    "type": "Button",
+                    "id": "3da7ef10-9d17-479a-ad52-481e79531a89",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d8fb5163-1d49-4f63-a58a-a506c9ff996b",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SendChat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7f8f9318-89a6-42ca-a34b-d562d6ce9d0b",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenChat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Health",
+            "id": "25c76532-e9ee-4977-a0a6-4b29186ba648",
+            "actions": [
+                {
+                    "name": "Decrease",
+                    "type": "Button",
+                    "id": "e7d183c9-a857-4101-82f1-c2a715c41d5c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Increase",
+                    "type": "Button",
+                    "id": "3339e97c-00c2-4985-88c5-cb38d7fab7b5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e3017e42-f81a-41a2-a9ca-9d17071a44c0",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Decrease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b621099e-1110-433c-a4be-07f8bbb9eb78",
+                    "path": "<Keyboard>/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Increase",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player",
+            "id": "97edd078-dc38-4501-b885-b974f21fc48e",
+            "actions": [
+                {
+                    "name": "Punch",
+                    "type": "Button",
+                    "id": "d7528416-4517-4848-b27c-ce30579fbc5f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "653319e4-6c30-49da-bc54-c3abb9e55199",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Punch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
